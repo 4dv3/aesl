@@ -738,8 +738,8 @@ FL_ASL.attachSearchForm = function () {
     // Main ASL search option interface
     html_string = '<fieldset><legend>Search for user profiles of the following gender/sex:</legend><p>';
     html_string += 'Show me profiles of people with a gender/sex of&hellip;';
-    html_string += '<label><input type="checkbox" name="user[sex]" value="M" checked="checked" /> Male</label>';
-    html_string += '<label><input type="checkbox" name="user[sex]" value="F" /> Female</label>';
+    html_string += '<label><input type="checkbox" name="user[sex]" value="M" /> Male</label>';
+    html_string += '<label><input type="checkbox" name="user[sex]" value="F" checked="checked" /> Female</label>';
     html_string += '<label><input type="checkbox" name="user[sex]" value="CD/TV" />Crossdresser/Transvestite</label>';
     html_string += '<label><input type="checkbox" name="user[sex]" value="MtF" />Trans - Male to Female</label>';
     html_string += '<label><input type="checkbox" name="user[sex]" value="FtM" checked="checked" />Trans - Female to Male</label>';
